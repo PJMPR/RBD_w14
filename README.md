@@ -61,10 +61,6 @@ public class DaoFactory {
 }
 ```
 
-### 🔄 Strategy *(opcjonalnie)*
-
-Możemy wydzielić strategie filtrowania, np. według nazwy, wieku itp.
-
 ## 🛠️ Połączenie z MongoDB (MongoDBConnector.java)
 
 ```java
@@ -127,10 +123,3 @@ userDao.create(testUser);
 * [ ] Walidacja danych
 * [ ] Strategie filtrowania użytkowników
 
-## 📄 Licencja
-
-MIT
-
----
-
-Gotowy do działania ✨ Skonfiguruj MongoDB lokalnie lub w chmurze i uruchom program!
